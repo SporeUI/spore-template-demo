@@ -20,7 +20,7 @@ export default {
   },
   created() {
     const { $store } = this;
-    $store.commit('pageTitle', 'Poodle template Demo');
+    $store.commit('pageTitle', 'Spore template Demo');
   },
 };
 </script>

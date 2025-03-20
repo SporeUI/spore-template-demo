@@ -32,7 +32,7 @@ export default {
       // 可以实现不同页面参数渲染不同结果
       console.info('=====> this.$route.query.info:', info);
     }
-    $store.commit('pageTitle', 'Poodle template Logo');
+    $store.commit('pageTitle', 'Spore template Logo');
     $store.commit('pageContext', {
       pageInject: strPageInject,
     });
